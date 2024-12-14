@@ -1,0 +1,8 @@
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+#vertual environment
+venv
+venv2
+
+# local env files
+.env
