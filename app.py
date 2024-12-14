@@ -7,7 +7,7 @@ from mysql.connector import Error
 from dotenv import load_dotenv
 
 # Load environment variables
-load_dotenv()
+# load_dotenv()
 api_key = os.getenv("OPENAI_API_KEY")
 client = OpenAI()
 
