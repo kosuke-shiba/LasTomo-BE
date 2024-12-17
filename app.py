@@ -15,7 +15,7 @@ app = Flask(__name__)
 CORS(app, resources={r"/api/*": {"origins": "https://tech0-gen-8-step3-app-node-11.azurewebsites.net"}})
 
 # MySQL使用のフラグ（Falseにするとモックを使用）
-USE_MYSQL = True
+USE_MYSQL = False
 
 # モックデータ用リスト
 mock_chat_history = []
