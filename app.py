@@ -12,7 +12,7 @@ api_key = os.getenv("OPENAI_API_KEY")
 client = OpenAI()
 
 app = Flask(__name__)
-CORS(app, resources={r"/api/*": {"origins": "http://localhost:3000"}})
+CORS(app, resources={r"/api/*": {"origins": "https://tech0-gen-8-step3-app-node-11.azurewebsites.net"}})
 
 # MySQL使用のフラグ（Falseにするとモックを使用）
 USE_MYSQL = True
